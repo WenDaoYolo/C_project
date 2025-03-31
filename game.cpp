@@ -13,8 +13,8 @@ void PrintMenu() {
 void PrintMenu2(int num,int history) {
 	printf("*=================================*\n");
 	printf("  Result:                          \n");
-	printf("             ±¾ÂÖ´ÎÊı:%d           \n",num);
-	printf("             ÀúÊ·×îÓÅ:%d           \n",history);
+	printf("             æœ¬è½®æ¬¡æ•°:%d           \n",num);
+	printf("             å†å²æœ€ä¼˜:%d           \n",history);
 	printf("                                   \n");
 	printf("*=================================*\n");
 }
@@ -25,21 +25,21 @@ void GameIn() {
 	int count = 0;
 	static int mincount = 99999;
 	while (1) {
-		printf("ÇëÊäÈë>");
+		printf("è¯·è¾“å…¥>");
 		scanf("%d", &guess);
 		if (guess > random)
 		{
-			printf("²Â´óÁË!\n");
+			printf("çŒœå¤§äº†!\n");
 			count++;
 		}
 		else if (guess < random)
 		{
-			printf("²ÂĞ¡ÁË!\n");
+			printf("çŒœå°äº†!\n");
 			count++;
 		}
 		else
 		{
-			printf("²Â¶ÔÁË!\n");
+			printf("çŒœå¯¹äº†!\n");
 			count++;
 			break;
 		}
