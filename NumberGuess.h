@@ -1,5 +1,5 @@
 #include<stdio.h>
 
-void PrintMenu();		                     //Ö÷²Ëµ¥´òÓ¡
-void PrintRule();                            //´òÓ¡ÓÎÏ·¹æÔò
-void PrintResult(int count,int mincount);    //´òÓ¡ÓÎÏ·½á¹û
+void PrintMenu();		                         //ä¸»èœå•æ‰“å°
+void PrintRule();                            //æ‰“å°æ¸¸æˆè§„åˆ™
+void PrintResult(int count,int mincount);    //æ‰“å°æ¸¸æˆç»“æœ
